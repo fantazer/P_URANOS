@@ -1,0 +1,14 @@
+mixin team()
+	//block team
+	.team-wraper
+		.main-cont
+			.team-title Meet our team
+			.team-title-sub We make this APP!
+			.team
+				- for (var i = 0; i < 4; i++)
+					.team-el
+						.team-el__img(style="background-image:url(img/user-#{i+1}.jpg)")
+						.team-el__title John Smith
+						.team-el__text  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, a?adipisicing elit. Debitis, a?adipisicing elit. Debitis, a?
+
+	//block team end

@@ -1,0 +1,75 @@
+//! block header
+.header 
+	height 850px
+	bgi('bg.png')
+	background-size cover
+	background-position center
+	background-repeat no-repeat
+	border-top 3px solid yellow
+	position relative
+	.main-cont 
+		flex(mid)
+		fl()
+		fw()
+		height 100%
+.nav 
+	flex(between)
+	padding 50px 0
+	position absolute
+	width 100%
+	top 0 
+	left 0
+.logo
+	width 30%
+.menu 
+	width 60%
+.menu__wraper 
+	flex(between)
+.menu__el 
+	up()
+	br(5px)
+	tr(all)
+	color white
+	font-size 18px
+	font-weight 500
+	width 100%
+	text-align center
+	padding 15px 0
+	&:hover
+		background yellow 
+.slogan 
+	margin-bottom 70px
+.slogan__main 
+	up()
+	font-size 60px
+	text-align center
+	font-weight 100
+	color white
+.slogan__sub
+	font-size 60px
+	text-align center
+	font-weight 500
+	color white
+.header-wrap
+	flex(mid)
+	fl()
+	fw()
+.header-nav 
+	flex(between)
+	input
+		up()
+		margin-right 10px
+		border-color rgba(248, 248, 248, 0.45)
+		background none 
+		padding 25px
+		margin-bottom 0
+		color white
+	button 
+		@extend .btn
+		@extend .btn--yellow
+		up()
+		br(2px)
+		border 0px
+		
+	
+//!block header end

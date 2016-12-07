@@ -1,0 +1,299 @@
+.icon {
+    font-size: 10px;
+}
+
+.icon:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("../svg/sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 51.2em 935.6em;
+}
+
+.no-svg .icon:before {
+    background-image: url("../svg/sprite.png");
+}
+
+
+
+  .icon.back:before {
+      background-position: 0em 0em;
+      width: 47.7175em;
+      height: 47.7175em;
+  }
+
+
+
+
+  .icon.cancel:before {
+      background-position: 0em -47.8em;
+      width: 47.519999999999996em;
+      height: 47.519999999999996em;
+  }
+
+
+
+
+  .icon.cancel-1:before {
+      background-position: 0em -95.4em;
+      width: 6.4em;
+      height: 6.4em;
+  }
+
+
+
+
+  .icon.checked:before {
+      background-position: 0em -101.8em;
+      width: 2.6em;
+      height: 2.6em;
+  }
+
+
+
+
+  .icon.down-arrow:before {
+      background-position: 0em -104.4em;
+      width: 12.9em;
+      height: 12.9em;
+  }
+
+
+
+
+  .icon.envelope:before {
+      background-position: 0em -117.3em;
+      width: 48.33em;
+      height: 48.33em;
+  }
+
+
+
+
+  .icon.facebook:before {
+      background-position: 0em -165.7em;
+      width: 51.2em;
+      height: 51.2em;
+  }
+
+
+
+
+  .icon.garbage:before {
+      background-position: 0em -216.9em;
+      width: 5.9em;
+      height: 5.9em;
+  }
+
+
+
+
+  .icon.heart:before {
+      background-position: 0em -222.8em;
+      width: 47.170100000000005em;
+      height: 47.170100000000005em;
+  }
+
+
+
+
+  .icon.house:before {
+      background-position: 0em -270em;
+      width: 48.619600000000005em;
+      height: 48.619600000000005em;
+  }
+
+
+
+
+  .icon.icon-1:before {
+      background-position: 0em -318.7em;
+      width: 5.5em;
+      height: 5.8em;
+  }
+
+
+
+
+  .icon.icon-2:before {
+      background-position: 0em -324.5em;
+      width: 3.5em;
+      height: 5.9em;
+  }
+
+
+
+
+  .icon.icon-3:before {
+      background-position: 0em -330.4em;
+      width: 4.8em;
+      height: 5.8em;
+  }
+
+
+
+
+  .icon.icon-4:before {
+      background-position: 0em -336.2em;
+      width: 7.6em;
+      height: 4.7em;
+  }
+
+
+
+
+  .icon.icon-5:before {
+      background-position: 0em -340.9em;
+      width: 11.3em;
+      height: 12em;
+  }
+
+
+
+
+  .icon.icon-6:before {
+      background-position: 0em -352.9em;
+      width: 10.3em;
+      height: 13.2em;
+  }
+
+
+
+
+  .icon.icon-7:before {
+      background-position: 0em -366.1em;
+      width: 8.3em;
+      height: 9.8em;
+  }
+
+
+
+
+  .icon.instagram:before {
+      background-position: 0em -375.9em;
+      width: 29.1319em;
+      height: 29.1319em;
+  }
+
+
+
+
+  .icon.interface:before {
+      background-position: 0em -405.1em;
+      width: 49.04em;
+      height: 49.04em;
+  }
+
+
+
+
+  .icon.like:before {
+      background-position: 0em -454.2em;
+      width: 49.019999999999996em;
+      height: 49.019999999999996em;
+  }
+
+
+
+
+  .icon.magnifying-glass:before {
+      background-position: 0em -503.3em;
+      width: 45.1em;
+      height: 45.1em;
+  }
+
+
+
+
+  .icon.menu:before {
+      background-position: 0em -548.4em;
+      width: 2.4em;
+      height: 2.4em;
+  }
+
+
+
+
+  .icon.menu-button:before {
+      background-position: 0em -550.8em;
+      width: 45.9em;
+      height: 45.9em;
+  }
+
+
+
+
+  .icon.next:before {
+      background-position: 0em -596.7em;
+      width: 47.7175em;
+      height: 47.7175em;
+  }
+
+
+
+
+  .icon.phone-call:before {
+      background-position: 0em -644.5em;
+      width: 47.3806em;
+      height: 47.3806em;
+  }
+
+
+
+
+  .icon.placeholder:before {
+      background-position: 0em -691.9em;
+      width: 47.7em;
+      height: 47.7em;
+  }
+
+
+
+
+  .icon.share:before {
+      background-position: 0em -739.6em;
+      width: 48.160000000000004em;
+      height: 48.160000000000004em;
+  }
+
+
+
+
+  .icon.star:before {
+      background-position: 0em -787.8em;
+      width: 49.0727em;
+      height: 49.0727em;
+  }
+
+
+
+
+  .icon.twitter:before {
+      background-position: 0em -836.9em;
+      width: 41.015499999999996em;
+      height: 41.015499999999996em;
+  }
+
+
+
+
+  .icon.up-arrow:before {
+      background-position: 0em -878em;
+      width: 6.4em;
+      height: 6.4em;
+  }
+
+
+
+
+  .icon.vk:before {
+      background-position: 0em -884.4em;
+      width: 51.2em;
+      height: 51.2em;
+  }
+
+
+
+
+

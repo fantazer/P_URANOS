@@ -1,0 +1,17 @@
+mixin adv()
+	//block adv
+	.adv-wraper
+		.main-cont
+			.adv-title Haw our app works?
+			.adv-title-sub We make this APP!
+			.adv
+				- for (var i = 0; i < 4; i++)
+					.adv__el
+						.adv__el-icon
+							svg.icons
+								use(xlink:href="#icon-#{i+4}")
+						.adv__el-title Lorem ipsum
+						.adv__el-text  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt molestias, quod nam eligendi quisimpedit ad.
+			a(href="#").adv-btn download now
+
+	//block adv end

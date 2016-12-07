@@ -1,0 +1,22 @@
+mixin header()
+	//block header
+	.header
+		.main-cont
+			.nav
+				a(href="#").logo
+					img(src="img/logo.png", alt="")
+				.menu
+					.menu__wraper
+						- var arr =['Home','About Us','Our Team','Portfolio','Contact'];
+						- each val in arr 
+							a(href="#").menu__el #{val}
+			.header-wrap
+				.slogan
+					.slogan__main Discover the wold of awsome
+					.slogan__sub free PSD templates
+				.header-nav
+					input(type="text" placeholder="email")
+					input(type="text" placeholder="password")
+					button register
+
+	//block header end

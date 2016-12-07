@@ -1,0 +1,14 @@
+{
+	"block":{
+		"header":"header",
+		"service":"service",
+		"team":"team",
+		"discr":"discr",
+		"adv":"adv",
+		"footer":"footer"
+		
+	},
+	"page":{
+		"index":"index"
+	}
+}
