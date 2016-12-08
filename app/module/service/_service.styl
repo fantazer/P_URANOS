@@ -1,20 +1,41 @@
 //! block service
 .service-wraper 
+	+below(768px)
+		padding 40px 0 20px 0
 	background dark 
 	padding 120px 0 60px 0
 	color white
 .service 
+	+below(768px)
+		fl()
+		fw()
+		align-items center
 	flex(between)
 	align-items flex-start
 .service-info 
+	+below(768px)
+		width 100%
+		padding 0 20px
 	width 30%
 .service-info__el 
+	+below(768px)
+		margin-bottom 20px
 	margin-bottom 50px
 .service-img
+	+below(768px)
+		width 100%
+		flex(mid)
 	width 40%
 	img
+		+below(960px)
+			margin-top -200px
+			max-width 200px
+		+below(768px)
+			margin 20px 0
 		margin-top -300px
 .service-info__title 
+	+below(768px)
+		margin-bottom 10px
 	f()
 	align-items center
 	margin-bottom 20px
@@ -24,10 +45,15 @@
 		fill yellow
 		size 30
 .service-info__name 
+	+below(960px)
+		font-size 24px
 	font-size 36px
 	font-weight 300
-	line-height 48px
 .service-info__text 
+	+below(768px)
+		line-height inherit 
+		font-weight 400
+		color  #cdcdcd
 	color white
 	font-family Roboto
 	font-size 16px

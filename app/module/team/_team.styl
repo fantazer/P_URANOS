@@ -1,33 +1,52 @@
 //! block team
 .team-wraper 
+	+below(768px)
+		padding 50px 0
 	padding 120px 0
 	background yellow 
 //.main-cont 
 .team-title 
+	+below(768px)
+		font-size 9vw
 	text-align center
 	color #191b29
 	font-size 60px
 	font-weight 100 
 .team-title-sub 
+	+below(768px)
+		margin-bottom 30px
+		font-size 6vw
 	text-align center
 	color #191b29
 	font-size 36px
 	font-weight 700
 	margin-bottom 90px
 .team 
+	+below(960px)
+		fw()
 	flex(between)
 .team-el 
+	+below(960px)
+		width 48%
+		margin-bottom 20px
+	+below(640px)
+		width 100%
 	flex(mid)
 	fl()
 	fw()
 	width 23%
 .team-el__img 
+	+below(640px)
+		margin-bottom 20px
+	br(50%)
+	border 7px solid black
 	margin-bottom 40px
-/*	size 150px
+	size 150px
 	background-size cover
 	background-position center
-	br(50%)*/
 .team-el__title 
+	+below(768px)
+		font-size 6vw
 	text-align center
 	font-size 30px
 	font-weight 700
@@ -36,4 +55,5 @@
 .team-el__text 
 	text-align center
 	color rgba(17, 17, 17, 0.6);
+	width 100%
 //!block team end

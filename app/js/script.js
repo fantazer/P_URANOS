@@ -20,7 +20,7 @@ $(document).ready(function(){
 
 	
 	/* ###### For SlideToggle Elements  ######*/
-	/*var hideToggle = function(targetClick,toggleEl) {
+	var hideToggle = function(targetClick,toggleEl) {
 		$(targetClick).click(function(event){
 				event.stopPropagation();
 				$(toggleEl).slideToggle("fast");
@@ -32,7 +32,7 @@ $(document).ready(function(){
 				$(toggleEl).hide();
 		});
 	}
-	hideToggle('.icon-bars','.top-menu_link');*/
+	hideToggle('.header-toggle','.menu');
 
 
 	/* ###### init RangeSLider  ######*/

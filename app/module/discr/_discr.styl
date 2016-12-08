@@ -4,25 +4,51 @@
 .dicr__info
 	background yellow 
 .dicr__row 
+	+below(768px)
+		padding 30px 0
 	padding 70px 0
 .dicr__row--yellow 
 	background lighten(yellow,20) 
 .dicr-cont
+	+below(768px)
+		width 100%
 	width 40%
 .dicr-img
+	+below(1200px)
+		margin-top 10%
+	+below(768px)
+		position static
+		width 100%
+		background-color lighten(yellow,20)  
+		padding 30px 0 30px 20px  
+		margin-top 0
+		img
+			width 70%
+			margin-left auto
 	position absolute
 	right 0
 	top 0
 	background-size cover
+	width 55%
 .dicr__title 
 	@extend .type-title
 	font-weight 700
 .dicr__btn 
+	+below(768px)
+		width 100%
+		padding 10px 15px
+		text-align center
+		margin-top 10px
 	@extend .btn
+	up()
+	br(3px)
 	margin-top 40px
 	display inline-block 
 	background dark
 	color white
-	up()
+	tr(all)
+	&:hover
+		color yellow
+		background lighten(dark,10) 
 //.dicr__img 
 //!block discr end

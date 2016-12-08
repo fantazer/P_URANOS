@@ -1,5 +1,10 @@
 //! block header
++below(768px)
+	placeholder(white)
 .header 
+	+below(768px)
+		height 100vh
+		min-height 500px
 	height 850px
 	bgi('bg.png')
 	background-size cover
@@ -12,20 +17,43 @@
 		fl()
 		fw()
 		height 100%
-.nav 
-	flex(between)
-	padding 50px 0
+.nav-wraper
+	+below(1200px)
+		padding 0
 	position absolute
 	width 100%
 	top 0 
 	left 0
+	padding 50px 0
+.nav 
+	+below(1200px)
+		padding 20px 20px
+	flex(between)
+	position relative
+	width 100%
 .logo
 	width 30%
 .menu 
+	+below(768px)
+		position absolute
+		width 100%
+		top 100%
+		left 0
+		display none
+	+above(768px)
+		display block!important
 	width 60%
 .menu__wraper 
+	+below(768px)
+		fw()
+		fl()
+		background #121726 
 	flex(between)
 .menu__el 
+	+below(960px)
+		font-size 16px
+	+below(768px)
+		width 100%
 	up()
 	br(5px)
 	tr(all)
@@ -38,14 +66,22 @@
 	&:hover
 		background yellow 
 .slogan 
+	+below(768px)
+		margin-bottom 6%
+		width 100%
 	margin-bottom 70px
 .slogan__main 
+	+below(768px)
+		font-size 9vw
+		width 100%
 	up()
 	font-size 60px
 	text-align center
 	font-weight 100
 	color white
 .slogan__sub
+	+below(768px)
+		font-size 9vw
 	font-size 60px
 	text-align center
 	font-weight 500
@@ -54,9 +90,21 @@
 	flex(mid)
 	fl()
 	fw()
+	width 100%
 .header-nav 
+	+below(768px)
+		fw()
+		fl()
+		width 60%
 	flex(between)
 	input
+		+below(768px)
+			width 100%
+			margin-right 0
+			margin-bottom 10px
+			padding 10px 15px
+			border-color white
+			
 		up()
 		margin-right 10px
 		border-color rgba(248, 248, 248, 0.45)
@@ -65,11 +113,20 @@
 		margin-bottom 0
 		color white
 	button 
+		+below(768px)
+			width 100%
+			padding 15px
 		@extend .btn
 		@extend .btn--yellow
 		up()
 		br(2px)
 		border 0px
 		
-	
+.header-toggle
+	+above(768px)
+		display none
+	.icons
+		fill white
+		size 20
+		cp()
 //!block header end
